@@ -28,7 +28,7 @@ scale the validator service independently of the management service.
 -   [Deployment](#deployment)
 -   [Development](#development)
 -   [Usage](#usage)
--   [Known Issues](#known-issues)
+-   [Missing Features and Known Issues](#missing-features-and-known-issues)
 -   [Contributions and feedback](#contributions-and-feedback)
 -   [License](#license)
 
@@ -270,10 +270,9 @@ The response of this post call contains the URI which has to be provided to the 
 | holder_binding_mismatch           | The holder has provided invalid proof that the credential is under their control.                                                    |
 | client_rejected                   | The holder rejected the verification request.                                                                                        |
 
+## Missing Features and Known Issues
 
-## Known Issues
-
-The swiyu Public Beta Trust Infrastructure was deliberately released at an early stage to enable future ecosystem participants. There may still be minor bugs or security vulnerabilities in the test system. We will publish them in the near future as ‘KnownIssues’ in this repository.
+The swiyu Public Beta Trust Infrastructure was deliberately released at an early stage to enable future ecosystem participants. The [feature roadmap](https://github.com/orgs/swiyu-admin-ch/projects/1/views/7) shows the current discrepancies between Public Beta and the targeted productive Trust Infrastructure. There may still be minor bugs or security vulnerabilities in the test system. These are marked as [‘KnownIssues’](../../issues) in each repository.
 
 ## Contributions and feedback
 
